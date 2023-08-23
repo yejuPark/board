@@ -16,3 +16,7 @@ def detail(request, id):
         'post': post,
     }
     return render(request, 'detail.html', context)
+
+
+def new(request):
+    return render(request, 'new.html')
